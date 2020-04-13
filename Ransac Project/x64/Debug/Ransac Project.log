@@ -1,0 +1,20 @@
+﻿Compilación iniciada a las 12/04/2020 08:24:06.
+     1>Proyecto "C:\Users\Richar\Desktop\Papers\Ransac\Ransac Project\Ransac Project\Ransac Project.vcxproj" en el nodo 2 (Build destinos).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /I"C:\Program Files\opencv 2.4\build\include" /I"C:\Program Files\opencv 2.4\build\include\opencv" /ZI /nologo /W3 /WX- /sdl /Od /D _CRT_SECURE_NO_WARNINGS /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"x64\Debug\\" /Fd"x64\Debug\vc140.pdb" /Gd /TP /errorReport:prompt main.cpp
+         main.cpp
+     1>c:\users\richar\desktop\papers\ransac\ransac project\ransac project\ransac2d.h(165): warning C4267: 'inicializando': conversión de 'size_t' a 'int'; posible pérdida de datos
+     1>c:\users\richar\desktop\papers\ransac\ransac project\ransac project\ransac2d.h(166): warning C4267: 'inicializando': conversión de 'size_t' a 'int'; posible pérdida de datos
+     1>c:\users\richar\desktop\papers\ransac\ransac project\ransac project\ransac2d.h(205): warning C4267: 'argumento': conversión de 'size_t' a 'unsigned int'; posible pérdida de datos
+     1>c:\users\richar\desktop\papers\ransac\ransac project\ransac project\ransac2d.h(255): warning C4267: 'argumento': conversión de 'size_t' a 'const int'; posible pérdida de datos
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Richar\Desktop\Papers\Ransac\Ransac Project\x64\Debug\Ransac Project.exe" /INCREMENTAL /NOLOGO /LIBPATH:"C:\Program Files\opencv 2.4\build\x64\vc14\lib" "C:\Program Files\opencv 2.4\build\x64\vc14\lib\opencv_core2413d.lib" "C:\Program Files\opencv 2.4\build\x64\vc14\lib\opencv_highgui2413d.lib" "C:\Program Files\opencv 2.4\build\x64\vc14\lib\opencv_video2413d.lib" "C:\Program Files\opencv 2.4\build\x64\vc14\lib\opencv_ml2413d.lib" "C:\Program Files\opencv 2.4\build\x64\vc14\lib\opencv_legacy2413d.lib" "C:\Program Files\opencv 2.4\build\x64\vc14\lib\opencv_imgproc2413d.lib" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"C:\Users\Richar\Desktop\Papers\Ransac\Ransac Project\x64\Debug\Ransac Project.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Richar\Desktop\Papers\Ransac\Ransac Project\x64\Debug\Ransac Project.lib" /MACHINE:X64 x64\Debug\main.obj
+         x64\Debug\ransac_circle2d.obj
+         x64\Debug\ransac_ellipse2d.obj
+         x64\Debug\ransac_line2d.obj
+         Ransac Project.vcxproj -> C:\Users\Richar\Desktop\Papers\Ransac\Ransac Project\x64\Debug\Ransac Project.exe
+     1>Compilación del proyecto terminada "C:\Users\Richar\Desktop\Papers\Ransac\Ransac Project\Ransac Project\Ransac Project.vcxproj" (Build destinos).
+
+Compilación correcta.
+
+Tiempo transcurrido 00:00:01.49
